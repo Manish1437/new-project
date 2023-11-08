@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    font-family: 'roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url(farji\ font.zip);
+}
+/* div{font-family: 'myfont';} */
+#nav-bar {
+    width: 100%;
+    position: fixed;
+    height: 77px;
+    font-weight: 400;
+    color: #252222;
+    background-color: #EEF2FB;
+    box-shadow: 0px 0px 2px 0px gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+@media screen and (max-width: 1280px) {
+    #left-element{
+        display: flex;
+        align-items: center;
+        width: 332px;
+        height: 25px;
+        gap: 40px;
+        margin: 0px 0px 0px 100px;
+        background-color: bisque;
+        font-style: italic;
+    }
+}
+
+#logo {
+    width: 150px;
+    height: 77px;
+    float: left;
+}
+#logo img {
+    width: 74px;
+    height: 57px;
+    position: absolute;
+    top: 13px;
+    left: 75px;
+}
+
+#left-element {
+    color: rgba(0, 0, 0, 0.898);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+    height: 25px;
+    gap: 60px;
+    margin: 0px 0px 0px 400px;
+    font-size: 18px;
+}
+
+#btn {
+    width: 400px;
+    height: 36px;
+}
+
+.nav-btn:hover{
+   font-weight: 600;
+   cursor: pointer;
+}
+
+#open-btn {
+    width: 162px;
+    height: 35px;
+    margin-right: 40px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+#open-btn:hover{
+    color: #fff;
+    background: #5DD9F4;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#client-login {
+    width: 143px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    border: 1px solid black;
+    background-color: #1371ff;
+    color: #fff;
+}
+
+#client-login:hover{
+    color: #ffffff;
+    background-color: #0D9CBC;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+#img-part{
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 905px;
+    flex-shrink: 0;
+    background-image: url(web-image.png);
+    position: relative;
+    top: 77px;
+}
+
+#text{
+    width: 49.1%;
+    height: 110px;
+    position: relative;
+    top: 740px;
+    right: 661px;
+    bottom: 55px;
+    left: 110px;
+}
+#text div{
+    color: #fff;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+
+}
+
+#text-contener{
+    width: 100vw;
+    height: 811px;
+    background-color: #fff;
+    position: relative;
+    top: 77px;
+}
+#line1{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 43px 0px 43px 125px;
+
+}
+
+#para1{
+    width: 83.1%;
+    height: 308px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    text-align: justify;
+    margin: auto;
+    font-weight: 400;
+    line-height: normal;
+    font-variant: all-small-caps;
+
+}
+#contact1{
+    color: #292525;
+    width: 348px;
+    height: 75px;
+    border: 2px solid #292525;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-size: 32px;
+    margin: 60px 564px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#last-contener{
+    /* width: 1512px; */
+    width: 100%;
+
+    height: 158px;
+}
+#logo2{
+    width: 115px;
+    height: 30px;
+    margin: 32px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+
+.logo1 {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+}
+
+#bottm-bar{
+    width: 100%;
+    padding-bottom:25px;
+    display: flex;
+    align-items: center;
+
+}
+
+#logo-last {
+    width: 150px;
+}
+
+#logo-last img {
+    width: 74px;
+    height: 57px;
+    position: relative;
+    left: 75px;
+}
+
+
+svg{
+    margin-left: 67px;
+}
+#bottom-home{
+    width: 285px;
+    height: 19px;
+    gap: 35px;
+    font-family: 'inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+}
+

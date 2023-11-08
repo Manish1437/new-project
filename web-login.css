@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto' ;
+}
+
+body{
+    width: 100%;
+    height: 982px;
+    background-color: #EEF2FB;;
+}
+
+#main{
+    padding-top: 106px ; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#left-contener{
+    width: 710px;
+    height: 769px ;
+    background-color: #fff;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+#logoset{
+    width: 108px;
+    height: 83px;
+    margin: 52px auto 0px;
+
+}
+
+.inputfild{
+    width: 492px;
+    height: 74px;
+    margin-left: 104px;
+    border: 0.2px solid #333;
+    background-color: #fff;
+    font-size: 21px;
+    padding-left: 25px;
+}
+
+.resand{
+    float: right;
+    margin:12px 125px;
+    text-decoration: none;
+}
+.sub-btn{
+    display: inline-flex;
+padding: 12px 200px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+background: #5194F9;
+color: #fff;
+margin:62px 0px 0px 116px;
+border: none;
+font-size: 24px;
+
+}
+
+#right-contener{
+    width: 673px;
+    height: 770px ;
+    background-image: url(we-login-image.png);
+}
